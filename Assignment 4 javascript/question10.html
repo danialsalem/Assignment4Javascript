@@ -1,0 +1,45 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+    <title> Using JavaScript's toLocaleString() method </title>  
+    <a href="question1.html" type="submit" value="submit"><button type="submit"  >Question1</button></a>
+<a href="question2.html" type="submit" value="submit"><button type="submit"  >Question2</button></a>
+<a href="question3.html" type="submit" value="submit"><button type="submit"  >Question3</button></a>
+<a href="question4.html" type="submit" value="submit"><button type="submit"  >Question4</button></a>
+<a href="question5.html" type="submit" value="submit"><button type="submit"  >Question5</button></a>
+<a href="question6.html" type="submit" value="submit"><button type="submit"  >Question6</button></a>
+<a href="question7.html" type="submit" value="submit"><button type="submit"  >Question7</button></a>
+<a href="question8.html" type="submit" value="submit"><button type="submit"  >Question8</button></a>
+<a href="question9.html" type="submit" value="submit"><button type="submit"  >Question9</button></a>
+<a href="question10.html" type="submit" value="submit"><button type="submit"  >Question10</button></a>
+<a href="question11.html" type="submit" value="submit"><button type="submit"  >Question11</button></a>
+<a href="question12.html" type="submit" value="submit"><button type="submit"  >Question12</button></a>
+<a href="question13.html" type="submit" value="submit"><button type="submit"  >Question13</button></a>
+</head>  
+  
+<body>  
+    <h1> Q10.JavaScript format numbers with commas? </h1>  
+    <p>  
+        This is an example of using the JavaScript <b> toLocaleString() </b> method to format  a number with commas as thousands of separators in JavaScript  
+    </p>  
+    <b> Number1 = '123456789' </b> </br>  
+    <b> Number2 = '1234.56789' </b>  
+<p> Click the below button to print the above numbers separated with commas </p>  
+    <button onclick = "fun()"> Click me </button>  
+    <script type = "text/javascript">  
+        function fun() {  
+            num1 = 123456789;  
+            num2 = 1234.56789;  
+            output1 = num1.toLocaleString('en-US');  
+            output2 = num2.toLocaleString('en-US');  
+            document.write("<b> Given number = </b>", num1);  
+            document.write("</br> <b> Formatted number = </b>", output1);  
+              
+            document.write("</br> <br> <b> Given number = </b>", num2);  
+            document.write("</br> <b> Formatted number = </b>", output2);  
+  
+        }  
+    </script>  
+</body>  
+  
+</html>  

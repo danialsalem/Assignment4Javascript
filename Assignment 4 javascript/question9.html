@@ -1,0 +1,39 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+    <title>JavaScript appendChild() Method</title>  
+    <a href="question1.html" type="submit" value="submit"><button type="submit"  >Question1</button></a>
+    <a href="question2.html" type="submit" value="submit"><button type="submit"  >Question2</button></a>
+    <a href="question3.html" type="submit" value="submit"><button type="submit"  >Question3</button></a>
+    <a href="question4.html" type="submit" value="submit"><button type="submit"  >Question4</button></a>
+    <a href="question5.html" type="submit" value="submit"><button type="submit"  >Question5</button></a>
+    <a href="question6.html" type="submit" value="submit"><button type="submit"  >Question6</button></a>
+    <a href="question7.html" type="submit" value="submit"><button type="submit"  >Question7</button></a>
+    <a href="question8.html" type="submit" value="submit"><button type="submit"  >Question8</button></a>
+    <a href="question9.html" type="submit" value="submit"><button type="submit"  >Question9</button></a>
+    <a href="question10.html" type="submit" value="submit"><button type="submit"  >Question10</button></a>
+    <a href="question11.html" type="submit" value="submit"><button type="submit"  >Question11</button></a>
+    <a href="question12.html" type="submit" value="submit"><button type="submit"  >Question12</button></a>
+    <a href="question13.html" type="submit" value="submit"><button type="submit"  >Question13</button></a>
+</head>   
+<body>  
+    <h1>Q9.JavaScript appendchild() method?</h1>
+    <h1>JavaTPoint</h1>  
+    <h2>JavaScript appendChild() Method</h2>  
+    <ul id="languages">  
+        <li>Python</li>  
+        <li>Java</li>  
+    <li>Data Structure</li>  
+    </ul>  
+    <button onclick="append()">Append</button>  
+    <script>  
+        function append() {  
+            var node = document.createElement("LI");  
+            var textnode =   
+                document.createTextNode("C#");  
+            node.appendChild(textnode);  
+            document.getElementById("languages").appendChild(node);  
+        }  
+    </script>  
+</body>  
+</html>

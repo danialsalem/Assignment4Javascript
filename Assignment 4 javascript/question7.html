@@ -1,0 +1,34 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<title>JS Toggle Password Visibility</title>  
+<a href="question1.html" type="submit" value="submit"><button type="submit"  >Question1</button></a>
+<a href="question2.html" type="submit" value="submit"><button type="submit"  >Question2</button></a>
+<a href="question3.html" type="submit" value="submit"><button type="submit"  >Question3</button></a>
+<a href="question4.html" type="submit" value="submit"><button type="submit"  >Question4</button></a>
+<a href="question5.html" type="submit" value="submit"><button type="submit"  >Question5</button></a>
+<a href="question6.html" type="submit" value="submit"><button type="submit"  >Question6</button></a>
+<a href="question7.html" type="submit" value="submit"><button type="submit"  >Question7</button></a>
+<a href="question8.html" type="submit" value="submit"><button type="submit"  >Question8</button></a>
+<a href="question9.html" type="submit" value="submit"><button type="submit"  >Question9</button></a>
+<a href="question10.html" type="submit" value="submit"><button type="submit"  >Question10</button></a>
+<a href="question11.html" type="submit" value="submit"><button type="submit"  >Question11</button></a>
+<a href="question12.html" type="submit" value="submit"><button type="submit"  >Question12</button></a>
+<a href="question13.html" type="submit" value="submit"><button type="submit"  >Question13</button></a>
+</head>  
+<h1>Q7.How to Toggle Password Visibility in JavaScript?</h1>
+Enter Password: <input type="password" value="javatpoint" id="pswrd">  
+<input type="checkbox" onclick="toggleVisibility()"/>Show Password</br>  
+<body>  
+<script>  
+function toggleVisibility() {  
+  var getPasword = document.getElementById("pswrd");  
+  if (getPasword.type === "password") {  
+    getPasword.type = "text";  
+  } else {  
+    getPasword.type = "password";  
+  }  
+}  
+</script>  
+</body>  
+</html>  

@@ -1,0 +1,35 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+    <meta charset="UTF-8">  
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Using change event for Input elements</title>  
+    <a href="question1.html" type="submit" value="submit"><button type="submit"  >Question1</button></a>
+<a href="question2.html" type="submit" value="submit"><button type="submit"  >Question2</button></a>
+<a href="question3.html" type="submit" value="submit"><button type="submit"  >Question3</button></a>
+<a href="question4.html" type="submit" value="submit"><button type="submit"  >Question4</button></a>
+<a href="question5.html" type="submit" value="submit"><button type="submit"  >Question5</button></a>
+<a href="question6.html" type="submit" value="submit"><button type="submit"  >Question6</button></a>
+<a href="question7.html" type="submit" value="submit"><button type="submit"  >Question7</button></a>
+<a href="question8.html" type="submit" value="submit"><button type="submit"  >Question8</button></a>
+<a href="question9.html" type="submit" value="submit"><button type="submit"  >Question9</button></a>
+<a href="question10.html" type="submit" value="submit"><button type="submit"  >Question10</button></a>
+<a href="question11.html" type="submit" value="submit"><button type="submit"  >Question11</button></a>
+<a href="question12.html" type="submit" value="submit"><button type="submit"  >Question12</button></a>
+<a href="question13.html" type="submit" value="submit"><button type="submit"  >Question13</button></a>
+</head>  
+<body align="center">  
+    <h1>Q6 JavaScript change Event?</h1>
+   <input type="text" class="txtclass">  
+    <input type="button" value="Click me">  
+    </br>  
+    <label id="show"> </label>  
+    <script>  
+      let source = document.querySelector('.txtclass');  
+       let target = document.querySelector('#show');  
+        source.addEventListener('change', function () {  
+            target.textContent = this.value;  
+       });  
+    </script>  
+</body>  
+</html>  
